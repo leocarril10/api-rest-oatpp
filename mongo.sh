@@ -1,3 +1,5 @@
+#!/bin/sh
+
 sudo apt-get install libmongoc-1.0-0
 cd
 
