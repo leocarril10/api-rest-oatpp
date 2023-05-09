@@ -3,7 +3,7 @@
 sudo apt-get install libmongoc-1.0-0
 cd
 
-wget https://github.com/mongodb/libbson/releases/download/1.9.5/libbson-1.9.5.tar.gz
+wget https://github.com/mongodb/libbson/releases/download/1.9.5/libbson-1.9.5.tar.gz --no-check-certificate
 cd libbson-1.9.5/build
 cmake ..
 make 
