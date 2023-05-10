@@ -1,6 +1,4 @@
 #!/bin/sh
-cd ../../
-
 rm -rf tmp
 
 MODULE_NAME="oatpp-mongo"
