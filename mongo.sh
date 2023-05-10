@@ -1,5 +1,4 @@
 #!/bin/sh
-rm -rf tmp
 
 MODULE_NAME="oatpp-mongo"
 git clone --depth=1 https://github.com/oatpp/$MODULE_NAME
