@@ -3,8 +3,7 @@
 sudo apt-get install libmongoc-1.0-0
 cd
 
-wget http://ports.ubuntu.com/pool/universe/m/mongo-c-driver/libbson-dev_1.21.0-1build1_arm64.deb --no-check-certificate
-sudo apt install ./libbson-dev_1.21.0-1build1_arm64.deb
+sudo apt-get install libbson-dev
 
 cd
 
