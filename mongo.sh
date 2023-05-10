@@ -3,12 +3,8 @@
 sudo apt-get install libmongoc-1.0-0
 cd
 
-wget https://github.com/mongodb/libbson/releases/download/1.9.5/libbson-1.9.5.tar.gz --no-check-certificate
-tar -xzf libbson-1.9.5.tar.gz
-cd libbson-1.9.5/build
-cmake ..
-make 
-sudo make install
+wget http://ports.ubuntu.com/pool/universe/m/mongo-c-driver/libbson-dev_1.21.0-1build1_arm64.deb --no-check-certificate
+sudo apt install libbson-dev_1.21.0-1build1_arm64.deb
 
 cd
 
