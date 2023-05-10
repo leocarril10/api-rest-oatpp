@@ -1,8 +1,6 @@
 #!/bin/sh
 
-sudo apt-get install libmongoc-1.0-0
-cd
-
+sudo apt-get install libmongoc-dev
 sudo apt-get install libbson-dev
 
 cd
